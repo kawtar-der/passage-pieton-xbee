@@ -1,4 +1,5 @@
-# Passage piéton intelligent (réseau sans fil XBee / Zigbee)
+
+## Passage piéton intelligent (réseau sans fil XBee / Zigbee)
 
 Système de **feux de circulation à la demande** pour un passage piéton, construit autour de **trois nœuds sans fil** : un coordinateur (ESP32-S3) et deux nœuds Arduino Uno équipés chacun d'un bouton et d'un feu tricolore. Quand un piéton appuie sur un bouton, le coordinateur déclenche la séquence des feux sur les deux nœuds. Une matrice LED affiche un piéton qui marche pendant la traversée.
 
@@ -11,6 +12,7 @@ Système de **feux de circulation à la demande** pour un passage piéton, const
          ├────────── 'X' (bouton) ──────────►│◄────────── 'Z' (bouton) ──────┤
          │◄──────── 'Y' / 'R' / 'G' ─────────┴──────── 'Y' / 'R' / 'G' ─────►│
 ```
+<img width="591" height="500" alt="image" src="https://github.com/user-attachments/assets/aca3f4b3-955f-4786-859f-9f6fb15321fe" />
 
 ## Protocole
 
